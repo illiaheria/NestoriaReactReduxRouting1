@@ -1,0 +1,32 @@
+.selected {
+    position: relative;
+    width: 250px;
+}
+
+.favourites {
+    width: 200px;
+    border-radius: 20px;
+    align-items:center;
+    cursor: pointer;
+    border: 1px solid transparent;
+    color:#fff;
+    background-color: rgba(28, 127, 214, 0.9);
+}
+
+.favourites:hover {
+    background-color: transparent;
+    color:rgb(62, 27, 216);
+    border: 1px solid rgba(28, 127, 214, 0.9);
+}
+
+.blackStar {
+    font-size: 26px;
+    line-height: 1.3em;
+    margin-left: 10px;
+}
+
+.favourites__text {
+    font-size: 18px;
+    letter-spacing: 0.01em;   
+    padding-left: 5px;
+}

@@ -1,0 +1,49 @@
+/* Specification */
+body {
+	padding: 0;
+	margin: 0;
+	font-size: 14px;
+	letter-spacing: 0.02em;
+}
+
+div, p, form, input, a, span, button,i {
+	box-sizing: border-box;
+}
+
+p {
+	margin: 0;
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+}
+
+a, a:hover, a:active {
+	text-decoration: none;
+}
+
+a { 
+    color: #000;
+}
+
+a, button, input {
+	transition: all 0.3s ease;
+}
+
+input, input:hover, input:focus, input:active,
+button, button:hover, button:focus, button:active
+	{
+		outline: none;
+}
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+}
