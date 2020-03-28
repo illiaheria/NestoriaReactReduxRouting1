@@ -1,0 +1,14 @@
+.d-flex{
+    display: flex;
+}
+
+.menu {
+    width: 100%;
+    background-color: rgba(0,0,255, 0.6);
+    text-align: center;
+    height: 55px;
+}
+
+.menu >a> img {
+    margin-top: 15px;
+}

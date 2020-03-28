@@ -1,0 +1,15 @@
+.modal__incontent {
+    text-align: center;
+    border: 1px solid black;
+    padding: 25px;
+    position: relative;
+    margin-top: 25px;
+}
+
+.info__modal {
+    text-align: center;
+}
+
+.info__model_text {
+    padding-left: 10px;
+}
